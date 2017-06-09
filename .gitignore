@@ -1,0 +1,11 @@
+# Blacklist files/folders in same directory as the .gitignore file
+/*
+
+reddit/*
+
+# Whitelist some files
+!.gitignore
+!README.md
+!*.sh
+!reddit/
+
